@@ -1,7 +1,10 @@
 
 
+.header_section{
+    display:flex;
+}
+
 #section1{
-    display: flex;
 /* border:3px teal solid; */
 }
 .box1 {
@@ -34,4 +37,7 @@ text-align: right;
 padding: 4px;
 margin:5px;
 
+}
+.education_andjob{
+    
 }
