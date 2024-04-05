@@ -10,35 +10,37 @@ body{
     display:flex;
     border:2px white solid;
     /* background-color: rgb(85, 184, 230); */
-    background: rgba(240, 248, 255, 0.5);
+    background: rgba(240, 248, 255, 0.7);
     width:1100px;
+    font-family: 'Courier New', Courier, monospace
 }
 .info_container{
-    display:flex;
+    
     height:150px;
     border:2px black solid;
     margin:50px 5px 5px 4px;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: white;
     box-shadow: 10px 10px hotpink;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 
 #section1{
-/* border:3px teal solid; */
+
 }
 
-
+/* name and title description */
 .box2 {
-   
     font-family: 'Courier New', Courier, monospace;
-    color: blue;
     
+    flex-direction: column;
+    align-items: ;
     text-align: center;
 margin: 30px 5px 5px 3px;
 }
 
+/* name heading 1 */
 #h2 {
     font-size: 35px;
     
@@ -47,15 +49,24 @@ margin: 30px 5px 5px 3px;
 #h3 {
     font-size: 28px;
 }
+#h4{
+    font-size:22px;
+    color:rgb(95, 91, 91);
+}
+/* contact info_box */
 .box1 {
 background-color: white;
     border:black 2px solid;
-    width:220px;
+    width: 245px;
     padding:5px;
     margin:8px 8px 14px 10px;
     box-shadow: 6px 6px hotpink;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    
 }
-
+/* headshot */
 img {
     width:200px;
     height:275px;
@@ -66,30 +77,51 @@ img {
     box-shadow: 2px 2px yellow;
 
 }
-.box3{
-    border:2px black solid;
-    width:1100px;
+/* bio box styling */
+.bio_container{
+    border:2px white solid;
+    width:1085px;
+    padding:8px;
     margin:10px 5px 5px 0px;
+    background-color: rgba(240, 248, 255, 0.7)
+
 }
+
+/* content inside bio box  */
+.bio_text{
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border:hotpink 3px solid;
+    padding:10px;
+    margin:5px;
+    
+}
+
 
 #education1 li{
     list-style-type: none;
+    background-color: white;
 }
 .employment_hist li {
     list-style-type: none;
 }
+
+.flex_container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 article{
+    
     border:2px black solid;
-    width:50%;
+    width:33%;
+    background-color:rgba(240, 248, 255, 0.7);
+
 }
 
 aside{
-    display:flex;
-    flex-direction:column;
-    align-items:flex-end;
-   
-}
-
-.education_andjob{
+    
 
 }
